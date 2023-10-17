@@ -1,0 +1,78 @@
+.container {
+    background-color: lavender;
+    padding: 20px;
+}
+
+#heaven {
+    width: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px,
+}
+
+h2 {
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+p {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    
+}
+
+.card-body {
+    text-align: center;
+}
+
+#poem {
+    text-align: center;
+    width: 50%;
+}
+
+#bella {
+    width: 75%;
+    
+}
+
+.navbar-nav {
+    background-color: blueviolet;
+    display: flex;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-nav > li > a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.navbar-nav > li > a:hover {
+    color: blue;
+}
+
