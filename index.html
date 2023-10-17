@@ -5,89 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Bella</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 
 <body>
-    <nav class="navbar sticky-top bg-body-tertiary">
+    <nav class="navbar sticky-top" id="navbar">
         <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#bella">Bella</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#poem">Poem</a>
-                    </li>
-                </ul>
+            <div class="navbar-nav">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#bella">Bella</a>
             </div>
         </div>
     </nav>
+   
     <section class="container">
-        <div class="row row-content">
-            <div class="col">
-                <h1><em>In Loving Memory Of Bella Davis</em></h1>
-            </div>
+        <div>
+            <h1><em>In Loving Memory Of Bella Davis</em></h1>
         </div>
     </section>
     <section class="container">
-        <div class="row row-content">
+        <div class="row">
             <div class="col" id="heaven">
-                <img src="img/heaven.jpg.crdownload" id="heaven" alt="Picture of Heavens Gate">
+                <img src="img/heaven.jpg.crdownload" id="heaven" alt="Picture of Heaven">
             </div>
         </div>
     </section>
     <section class="container">
         <div class="row">
-            <div class="col" id="sweet">
+            <div class="col">
                 <h2>Dear Sweet Bella</h2>
             </div>
         </div>
     </section>
     <section class="container">
-        <div class="row row-content align-items-center">
-            <div class="col-6 col-sm-2 ">
+        <div class="row row-content">
+            <div class="col-sm-4">
                 <div class="card">
+                    <h3 class="card-title">Missing You</h3>
                     <div class="card-body" id="poem">
-                        <h3 class="card-title" id="missing">Missing Your Presence</h3>
-                        <p>Who knew a soulmate</p>
-                        <p>Could be wrapped in fur</p>
-                        <p>You were truly a best friend to me</p>
-                        <p>I will miss you in the morning</p>
-                        <p>Being the first that I’d see</p>
-                        <p>I will miss our long walks</p>
-                        <p>And our daily talks</p>
-                        <p>Although I was the one yapping away</p>
-                        <p>By my side is where you’d always stay</p>
-                        <p>With my hand patting your head</p>
-                        <p>It felt like you could hear every word I said</p>
-                        <p>I will miss everything about you</p>
-                        <p>How you would jump up against me</p>
-                        <p>And suddenly you were so tall</p>
-                        <p>Or your excited eyes waiting to catch the ball</p>
-                        <p>I will miss this and everything in between</p>
-                        <p>I hope you somehow knew</p>
-                        <p>You were truly my all</p>
-                    <div>
-                        <img src="img/paw_prints.jpg" id="heart" alt="Paw print heart">
+                        <div>
+                            <p>Who knew a soulmate
+                            Could be wrapped in fur
+                            You were truly a best friend to me
+                            I will miss you in the morning
+                            Being the first that I’d see
+                            I will miss our long walks
+                            And our daily talks
+                            Although I was the one yapping away
+                            By my side is where you’d always stay
+                            With my hand patting your head
+                            t felt like you could hear every word I said
+                            I will miss everything about you
+                            How you would jump up against me
+                            And suddenly you were so tall
+                            Or your excited eyes waiting to catch the ball
+                            I will miss this and everything in between
+                            I hope you somehow knew
+                            You were truly my all</p>
+                        </div>
+                        
                     </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title" id="sweet">Bella</h3>
-                                <img src="img/bella_image.jpg" id="bella" alt="Pictures Of Bella">
-                            </div>
+                </div>
+            </div>
+           
+            <div class="col-sm-4">
+                <div class="card">
+                    <h3 class="card-title">Bella</h3>
+                    <div class="card-body" id="bella">
+                        <div>
+                            <img src="img/bella_image.jpg" id="bella" alt="Picture of a heart made out of paw prints.">
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card">
+                    <h3 class="card-title">Our Heart</h3>
+                    <div class="card-body" id="heart">
+                        <img src="img/paw_prints.jpg" id="heart" alt="Picture of a heart made out of paw prints.">
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="remarks">
+            <h2>Forever in our Hearts</h2>
         </div>
     </section>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
