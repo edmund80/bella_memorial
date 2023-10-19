@@ -1,15 +1,23 @@
 {
-  "name": "bella_memorial",
+  "name": "bella_memorial-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Memorial for Bella",
   "source": "index.html",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmund80/bella_memorial.git"
+  },
   "keywords": [],
-  "author": "Edmund Davis",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmund80/bella_memorial/issues"
+  },
+  "homepage": "https://github.com/edmund80/bella_memorial#readme",
   "devDependencies": {
     "parcel": "^2.10.0"
   },
